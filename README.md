@@ -109,6 +109,69 @@ Il primo contributo non deve essere grande. Deve essere reale.
 
 ---
 
+## Perche' non le piattaforme esistenti / *Why not existing platforms*
+
+Le piattaforme capitalistiche sono progettate con incentivi specifici. Conoscerli serve a non riprodurli.
+
+*Capitalist platforms are designed around specific incentives. Knowing them helps avoid replicating them.*
+
+**Come funziona l'engagement tossico / *How toxic engagement works*:**
+- I contenuti che generano rabbia o paura ottengono piu' visibilita' perche' producono piu' interazione. Non e' un bug, e' il design.
+- Le notifiche sono progettate per creare dipendenza, non per essere utili.
+- I feed infiniti eliminano ogni conclusione naturale: non c'e' un "hai finito", solo un "continua a scorrere".
+- I like pubblici trasformano l'espressione personale in una gara di popolarita'.
+
+*Content that generates anger or fear gets more visibility because it produces more interaction. Not a bug — it's by design.*
+*Infinite scroll removes any natural conclusion: there's no "you're done", only "keep scrolling".*
+*Public likes turn personal expression into a popularity contest.*
+
+**Come Yanapanakuy evita questi pattern / *How Yanapanakuy avoids these patterns*:**
+- Nessun algoritmo di raccomandazione. I contenuti si trovano cercando, non perche' qualcosa ha deciso di mostrarteli.
+- Nessuna metrica pubblica di popolarita'. I contributi sono visibili, i voti di gradimento no.
+- Sessioni con conclusione naturale: ogni spazio ha un inizio e una fine.
+- Notifiche opzionali, disattivate per default.
+
+*No recommendation algorithm. Content is found by searching, not because something decided to show it to you.*
+*No public popularity metrics. Contributions are visible, approval votes are not.*
+*Sessions with natural conclusions: every space has a beginning and an end.*
+*Optional notifications, off by default.*
+
+---
+
+## Programma Ambassador / *Ambassador Program*
+
+In Fase 0, la crescita avviene attraverso persone reali, non algoritmi.
+
+*In Phase 0, growth happens through real people, not algorithms.*
+
+**Come funziona / *How it works*:**
+
+Ogni Nodo verificato puo' generare un codice di invito. Il codice e' tracciabile: sappiamo chi ha invitato chi, non per sorvegliare, ma perche' la rete di fiducia e' il meccanismo di identita' del sistema.
+
+*Each verified Node can generate an invitation code. The code is traceable: we know who invited whom — not to surveil, but because the trust network is the system's identity mechanism.*
+
+**Soglie e vincoli / *Thresholds and constraints*:**
+- Un Nodo nuovo non puo' invitare per i primi 30 giorni e/o prima di aver fatto almeno 1 contributo reale.
+- Ogni Nodo puo' avere al massimo 5 inviti attivi contemporaneamente.
+- Se un Nodo invitato viene rimosso per violazione, il Nodo invitante riceve una notifica e una nota nel suo profilo (non una punizione automatica).
+
+*A new Node cannot invite for the first 30 days and/or before making at least 1 real contribution.*
+*Each Node can have at most 5 active invites at the same time.*
+*If an invited Node is removed for violation, the inviting Node receives a notification and a note on their profile (not an automatic punishment).*
+
+**Contributi in presenza / *In-person contributions*:**
+Eventi fisici, laboratori, incontri. Chi partecipa riceve un QR code verificabile che attesta la presenza. Questo conta come contributo reale ai fini del sistema di inviti.
+
+*Physical events, workshops, meetings. Participants receive a verifiable QR code attesting to their presence. This counts as a real contribution for the invite system.*
+
+**Ambassador / Ambasciatori:**
+Persone che si rendono disponibili a presentare il progetto in prima persona — in video, eventi, o community esistenti. Non sono portavoce ufficiali. Non hanno piu' potere degli altri Nodi. Hanno visibilita' pubblica volontaria.
+
+*People who make themselves available to present the project in person — in videos, events, or existing communities. They are not official spokespersons. They have no more power than other Nodes. They have voluntary public visibility.*
+
+---
+
+
 ## Licenza / *License*
 
 GNU Affero General Public License v3.0
