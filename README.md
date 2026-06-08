@@ -55,7 +55,8 @@ Le implementazioni storiche del marxismo-leninismo come sistema di governo hanno
 **Verifica identita' / *Identity verification*:**
 Esclusivamente tramite trust sociale: un nuovo Nodo viene introdotto da un Nodo gia' verificato. Nessuna email, nessun telefono. Il grafo delle introduzioni esiste ed e' trasparente per design — e' un dato necessario al funzionamento del sistema, protetto e non usato per altri scopi.
 
-**Dati raccolti / *Data collected*:** nome, cognome, eta', genere (facoltativo). Niente altro.
+**Dati raccolti / *Data collected*:**
+nome, cognome, eta', genere (facoltativo). Niente altro.
 
 **Verifica assenza tracker / *Verify no trackers*:**
 Apri DevTools > Network > ricarica la pagina. Nessuna richiesta verso domini di analytics. Il codice sorgente e' pubblico: ogni script e' commentato e spiegato.
@@ -82,30 +83,6 @@ Il codice e' di tutti sotto AGPL-3.0. L'APS e' il custode legale, non il proprie
 
 **Bootstrap governance:**
 Il potere iniziale appartiene agli ideatori e ai primi collaboratori documentati pubblicamente. La transizione avviene tramite sistema misto: anzianita' verificata + ricambio parziale casuale estratto tra i Nodi attivi dopo periodo minimo di collaborazione. Nessuna posizione e' permanente.
-
----
-
-## Struttura del repository / *Repository structure*
-
-```
-/docs          documentazione e decisioni
-/platform      codice sorgente (in sviluppo)
-/content       script e materiali contenuti social
-/governance    bozza costituzione e meccanismi di voto
-/design        sistema visivo e componenti UI
-```
-
----
-
-## Come contribuire / *How to contribute*
-
-Il progetto e' in Fase 0. Non c'e' ancora una piattaforma da usare.
-
-- **Competenze tecniche** (backend, frontend, infra, AI/ML, sicurezza): leggi la sezione architettura, apri una issue con le tue osservazioni. Il disaccordo tecnico motivato e' benvenuto.
-- **Competenze non tecniche** (organizzazione, comunicazione, legale, design): ogni Biome in costruzione ha bisogno di persone che non siano developer.
-- **Curiosi**: nessun impegno richiesto per guardare.
-
-Il primo contributo non deve essere grande. Deve essere reale.
 
 ---
 
@@ -138,7 +115,7 @@ Le piattaforme capitalistiche sono progettate con incentivi specifici. Conoscerl
 
 ---
 
-## Programma Ambassador / *Ambassador Program*
+## Programma Pioneer / *Pioneer Program*
 
 In Fase 0, la crescita avviene attraverso persone reali, non algoritmi.
 
@@ -146,31 +123,54 @@ In Fase 0, la crescita avviene attraverso persone reali, non algoritmi.
 
 **Come funziona / *How it works*:**
 
-Ogni Nodo verificato puo' generare un codice di invito. Il codice e' tracciabile: sappiamo chi ha invitato chi, non per sorvegliare, ma perche' la rete di fiducia e' il meccanismo di identita' del sistema.
+Ogni Nodo verificato puo' generare un codice di invito. Il codice e' tracciabile: sappiamo chi ha invitato chi, non per sorvegliare, ma perche' la rete di fiducia e' il meccanismo di identita' del sistema. Il grafo delle connessioni e' visibile solo ai maintainer per scopi di sicurezza, mai pubblico.
 
-*Each verified Node can generate an invitation code. The code is traceable: we know who invited whom — not to surveil, but because the trust network is the system's identity mechanism.*
+*Each verified Node can generate an invitation code. The code is traceable: we know who invited whom — not to surveil, but because the trust network is the system's identity mechanism. The connection graph is visible only to maintainers for security purposes, never public.*
 
 **Soglie e vincoli / *Thresholds and constraints*:**
 - Un Nodo nuovo non puo' invitare per i primi 30 giorni e/o prima di aver fatto almeno 1 contributo reale.
 - Ogni Nodo puo' avere al massimo 5 inviti attivi contemporaneamente.
-- Se un Nodo invitato viene rimosso per violazione, il Nodo invitante riceve una notifica e una nota nel suo profilo (non una punizione automatica).
+- Se un Nodo invitato viene rimosso per violazione grave, il sistema segnala internamente la catena di introduzioni ai maintainer — senza azioni automatiche, senza informazioni pubbliche. I maintainer valutano caso per caso.
 
 *A new Node cannot invite for the first 30 days and/or before making at least 1 real contribution.*
 *Each Node can have at most 5 active invites at the same time.*
-*If an invited Node is removed for violation, the inviting Node receives a notification and a note on their profile (not an automatic punishment).*
+*If an invited Node is removed for serious violation, the system internally flags the introduction chain to maintainers — no automatic actions, no public information. Maintainers evaluate case by case.*
 
 **Contributi in presenza / *In-person contributions*:**
 Eventi fisici, laboratori, incontri. Chi partecipa riceve un QR code verificabile che attesta la presenza. Questo conta come contributo reale ai fini del sistema di inviti.
 
 *Physical events, workshops, meetings. Participants receive a verifiable QR code attesting to their presence. This counts as a real contribution for the invite system.*
 
-**Ambassador / Ambasciatori:**
+**Pioneer / Pionieri:**
 Persone che si rendono disponibili a presentare il progetto in prima persona — in video, eventi, o community esistenti. Non sono portavoce ufficiali. Non hanno piu' potere degli altri Nodi. Hanno visibilita' pubblica volontaria.
 
 *People who make themselves available to present the project in person — in videos, events, or existing communities. They are not official spokespersons. They have no more power than other Nodes. They have voluntary public visibility.*
 
 ---
 
+## Struttura del repository / *Repository structure*
+
+```
+/docs          documentazione e decisioni
+/platform      codice sorgente (in sviluppo)
+/content       script e materiali contenuti social
+/governance    bozza costituzione e meccanismi di voto
+/design        sistema visivo e componenti UI
+```
+
+---
+
+## Come contribuire / *How to contribute*
+
+Il progetto e' in Fase 0. Non c'e' ancora una piattaforma da usare.
+
+- **Competenze tecniche** (backend, frontend, infra, AI/ML, sicurezza): leggi la sezione architettura, apri una issue con le tue osservazioni. Il disaccordo tecnico motivato e' benvenuto.
+- **Competenze non tecniche** (organizzazione, comunicazione, legale, design): ogni Biome in costruzione ha bisogno di persone che non siano developer.
+- **Curiosi**: nessun impegno richiesto per guardare.
+
+Il primo contributo non deve essere grande. Deve essere reale.
+
+---
 
 ## Licenza / *License*
 
